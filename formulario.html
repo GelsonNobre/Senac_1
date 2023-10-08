@@ -7,32 +7,59 @@
 </head>
 <body>
     <form action="">
+        <div style="border: thick solid black">
+        <br>
         <div>
             <label for="Text_nome">Informe seu nome:</label>
             <input type="text" id="Text_nome" placeholder="Nome Completo">
         </div>
-        <br>
         <div>
             <label for="Dt_nasc">Data de Nascimento</label>
             <input type="date" id="Dt_nasc">
         </div>
-        <br>
         <div>
             <label for="Sexo">Sexo:</label>
-            <label for="Masc">M</label>
-            <input type="radio" name="" id="">
-            <label for="Fem">F</label>
-            <input type="radio" name="" id="">
-            <label for="Info">Não Informar</label>
-            <input type="radio" name="" id="">
+            <input type="radio" name="" id="Masc">
+            <label for="Masc">Masc</label>
+            <input type="radio" name="" id="Fem">
+            <label for="Fem">Fem</label>
+            <input type="radio" name="" id="Info">
+            <label for="Info">Prefiro não informar</label>  
         </div>
-        
-
-
-
-
-
-
+        <div>
+            Endereço:
+            <div>
+                <label for="Logradouro">Logradouro:</label>
+                <input type="text" id="Logradouro">
+            </div>
+            <div>
+                <label for="Bairro">Bairro:</label>
+                <input type="Text" id="Bairro">
+            </div>
+            <div>
+                <label for="Cidade">Cidade:</label>
+                <input type="text" id="Cidade">
+            </div>
+            <div>
+                <label for="Uf">UF:</label>
+                <select name="Uf" id="Uf">
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="AL">AL</option>
+                    <option value="BA">BA</option>
+                    <option value="DF">DF</option>
+                    <option value="CE">CE</option>
+                    <option value="MA">MA</option>
+                </select>
+            </div>
+            <div>
+                <label for="Text_E-mail">Informe seu E-mail:</label>
+                <input type="email" id="Text_E-mail" value="" name="email">
+            </div>
+            <input type="reset" value="Limpar"> 
+            <input type="submit" value="Enviar">
+        </div>
+        <br>
+    </div> 
     </form>
     
 </body>

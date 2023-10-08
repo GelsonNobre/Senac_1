@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="">
+        <fieldset id="Dados Pessoais">
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="Text_nome">Nome</label>
+                <input type="text" id="Text_nome" placeholder="Nome Completo">
+            </div>
+            <div>
+                <label for="Dt_nasc">Data de Nascimento</label>
+                <input type="date" id="Dt_nasc">
+            </div>
+            <div>
+                <label for="Text_E-mail">Informe seu E-mail</label>
+                <input type="email" id="Text_E-mail" value="" name="email">
+            </div>
+            <div>
+                <label for="Text_tel">Telefone</label>
+                <input type="text" id="Text_tel">
+            </div>
+        </fieldset>
+        <fieldset id="Dados Academicos">
+            <legend>Dados Academicos</legend>
+            <div>
+                <label for="Curso">Curso</label>
+                <select name="curso" id="Curso" disabled>
+                    <option value="ADS">ADS</option>
+                </select>
+            </div>
+            <div>
+                <label for="Sem">Semestre:</label>
+                <label for="Prim">1º</label>
+                <input type="radio" name="" id="Prim">
+                <label for="Seg">2º</label>
+                <input type="radio" name="" id="Seg">
+                <label for="Ter">3º</label>
+                <input type="radio" name="" id="Ter">
+                <label for="Quar">4º</label>
+                <input type="radio" name="" id="Quar">
+                <label for="Quin">5º</label>
+                <input type="radio" name="" id="Quin">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="Trabalha">Trabalha?</label>
+                <input type="checkbox">
+            </div>
+            <div>
+                <label for="Local">Local de Trabalho:</label>
+                <input type="text" name="Endereco" id="Local">
+            </div>
+            <div>
+                <label for="Experiencias">Descreva sua experiência</label>
+                <br>
+                <textarea name="Exper" id="Experiencia" cols="39" rows="3"></textarea>
+            </div>
+        </fieldset>
+        <input type="submit" value="Gravar">
+        <input type="reset" value="Limpar"> 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
